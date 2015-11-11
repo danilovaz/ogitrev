@@ -9,7 +9,7 @@ Instale o gulp
 
 Faça o update do package.json
 <pre>
-  $ npm install 
+  $ npm update 
 </pre>
 
 Faça o update do bower.json 
