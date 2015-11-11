@@ -14,7 +14,7 @@ Faça o update do package.json
 
 Faça o update do bower.json 
 <pre>
-  $ bower install 
+  $ bower update 
 </pre>
 
 E por fim altere o arquivo gulpfile.js para os caminhos que corresponde as pasta o seu projeto
