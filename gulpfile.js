@@ -9,7 +9,7 @@ var gulp = require('gulp'),
     connect = require('gulp-connect'),
     sass = require('gulp-sass'),
     notify = require("gulp-notify"),
-    // minifyCss = require('gulp-minify-css'),
+    minifyCss = require('gulp-minify-css'),
     browserSync = require('browser-sync').create();
 
 // SERVER CONNECT
@@ -25,7 +25,7 @@ gulp.task('css', function () {
   return gulp.src('assets_externo/scss/modules/*.scss')
     .pipe(sass())
     .pipe(prefix('last 15 versions'))
-    // .pipe(minifyCss())
+    .pipe(minifyCss())
     .pipe(rename("mage.min.css"))
     .pipe(gulp.dest('app/assets/css'))
     .pipe(browserSync.stream())
