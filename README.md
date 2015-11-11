@@ -25,8 +25,10 @@ E por fim altere o arquivo gulpfile.js para os caminhos que corresponde as pasta
     .pipe(gulp.dest('app/assets/css'))
 </pre>
 
-pra utilizar basta add a seguinte tag e adicionar as classes
+pra utilizar basta importar o seguinte arquivo e adicionar as classes
 <pre>
+ app/assets/css/mage.css
+ 
  col-s1 em diante até 12 para mobile 
  
  col-m1 em diante até 12 para desktop
