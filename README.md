@@ -10,6 +10,7 @@ Instale o gulp
 Faça o update do package.json
 <pre>
   $ npm update 
+  $ npm install browser-sync --save-dev
 </pre>
 
 Faça o update do bower.json 
