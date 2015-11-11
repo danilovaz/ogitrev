@@ -23,3 +23,10 @@ E por fim altere o arquivo gulpfile.js para os caminhos que corresponde as pasta
     .pipe(rename("orgitrev.min.css"))
     .pipe(gulp.dest('app/assets/css'))
 </pre>
+
+pra utilizar basta adicionar as classes
+<pre>
+ col-s1 em diante até 12 para mobile 
+ 
+ col-m1 em diante até 12 para desktop
+</pre>
