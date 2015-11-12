@@ -4,7 +4,7 @@ Modo de Implementação
 
 Altere o arquivo gulpfile.js para os caminhos que corresponde as pasta o seu projeto
 <pre>
-  return gulp.src('assets_externo/scss/modules/*.scss')
+  return gulp.src('dir/scss/modules/*.scss')
     .pipe(rename("orgitrev.min.css"))
     .pipe(gulp.dest('app/assets/css'))
 </pre>
