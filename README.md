@@ -2,23 +2,7 @@ Ogitrev o novo framework font-end muito facil de implementar totalmente responsi
 
 Modo de Implementação
 
-Instale o gulp
-<pre>
-  $ npm install --global gulp
-</pre>
-
-Faça o update do package.json
-<pre>
-  $ npm update 
-  $ npm install browser-sync --save-dev
-</pre>
-
-Faça o update do bower.json 
-<pre>
-  $ bower update 
-</pre>
-
-E por fim altere o arquivo gulpfile.js para os caminhos que corresponde as pasta o seu projeto
+Altere o arquivo gulpfile.js para os caminhos que corresponde as pasta o seu projeto
 <pre>
   return gulp.src('assets_externo/scss/modules/*.scss')
     .pipe(rename("orgitrev.min.css"))
@@ -27,9 +11,9 @@ E por fim altere o arquivo gulpfile.js para os caminhos que corresponde as pasta
 
 pra utilizar basta importar o seguinte arquivo e adicionar as classes
 <pre>
- app/assets/css/mage.css
+ app/assets/css/ogitrev.css
  
- col-s1 em diante até 12 para mobile 
+ col-m1 em diante até 12 para mobile 
  
- col-m1 em diante até 12 para desktop
+ col-d1 em diante até 12 para desktop
 </pre>
