@@ -1,0 +1,11 @@
+/* Chrome, Safari, Opera */
+@-webkit-keyframes mymove {
+    from{left: 0px;}
+    to{left: 900px;}
+}
+
+/* Standard syntax */
+@keyframes mymove {
+    from{left: 0px;}
+    to{left: 900px;}
+}

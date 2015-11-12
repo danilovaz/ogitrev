@@ -1,0 +1,127 @@
+@import "susy";
+@import "breakpoint";
+@import "variables";
+@import "animates";
+
+$susy: (
+  columns: 12,
+  gutters: 1/4,
+  math: fluid,
+  flow: ltl,
+  last-flow:from,
+  output: float,
+  gutter-position: split,
+);
+
+body{
+  font-size: 100%;
+}
+
+.container{
+  @include container(1170px);
+}
+
+.row{
+  @include break;
+}
+
+.col-d1{
+  @include span(1 of 12);
+}
+
+.col-d2{
+  @include span(2 of 12);
+}
+
+.col-d3{
+  @include span(3 of 12);
+}
+
+.col-d4{
+  @include span(4 of 12);
+}
+
+.col-d5{
+  @include span(5 of 12);
+}
+
+.col-d6{
+  @include span(6 of 12);
+}
+
+.col-d7{
+  float: left;
+  @include span(7 of 12);
+}
+
+.col-d8{
+  @include span(8 of 12);
+}
+
+.col-d9{
+  @include span(9 of 12);
+}
+
+.col-d10{
+  @include span(10 of 12);
+}
+
+.col-d11{
+  @include span(11 of 12);
+}
+
+.col-d12{
+  @include span(12 of 12);
+}
+
+@include breakpoint($small) {
+   @include with-layout(12) {
+     .col-m12{
+       @include span(12 of 12);
+     }
+
+     .col-m11{
+       @include span(11 of 12);
+     }
+
+     .col-m10{
+       @include span(10 of 12);
+     }
+
+     .col-m9{
+       @include span(9 of 12);
+     }
+
+     .col-m8{
+       @include span(8 of 12);
+     }
+
+     .col-m7{
+       @include span(7 of 12);
+     }
+
+     .col-m6{
+       @include span(6 of 12);
+     }
+
+     .col-m5{
+       @include span(5 of 12);
+     }
+
+     .col-m4{
+       @include span(4 of 12);
+     }
+
+     .col-m3{
+       @include span(3 of 12);
+     }
+
+     .col-m2{
+       @include span(2 of 12);
+     }
+
+     .col-m1{
+       @include span(1 of 12);
+     }
+   }
+}
