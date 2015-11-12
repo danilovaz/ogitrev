@@ -22,11 +22,11 @@ gulp.task('connect', function() {
 
 // CSS
 gulp.task('css', function () {
-  return gulp.src('assets_externo/scss/modules/*.scss')
+  return gulp.src('dir/scss/modules/*.scss')
     .pipe(sass())
     .pipe(prefix('last 15 versions'))
     .pipe(minifyCss())
-    .pipe(rename("mage.min.css"))
+    .pipe(rename("geral.min.css"))
     .pipe(gulp.dest('app/assets/css'))
     .pipe(browserSync.stream())
     .pipe(notify("Alteração realizado com sucesso!"))
