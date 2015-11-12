@@ -1,6 +1,7 @@
 Ogitrev o novo framework font-end baseado em grids muito facil de implementar totalmente responsivo com o gulp e Sass com alguns plugins para facilitar seu desenvolvimento.
 
 Modo de Implementação
+
 Antes de fazerem a alteração no gulpfile.js atualizem a versão local do gulp
 <pre>
 $ npm update gulp
