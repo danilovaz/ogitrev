@@ -4,7 +4,12 @@
 
 ## Implementation mode
 
+Before making the change in gulpfile.js update the local version of gulp
+<pre>
+$ npm update gulp
+</pre>
 Change the gulpfile.js file for paths that matches the folder your project
+
 <pre>
   return gulp.src('dir/scss/modules/*.scss')
     .pipe(rename("orgitrev.min.css"))
