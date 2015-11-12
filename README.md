@@ -1,4 +1,4 @@
-Ogitrev o novo framework font-end muito facil de implementar totalmente responsivo com o gulp e Sass com alguns plugins para facilitar seu desenvolvimento.
+Ogitrev o novo framework font-end baseado em GRIDS muito facil de implementar totalmente responsivo com o gulp e Sass com alguns plugins para facilitar seu desenvolvimento.
 
 Modo de Implementação
 
